@@ -22,5 +22,5 @@ export default function Navbar() {
                 <HiMenuAlt2 size={22} />
             </div>
         </nav>
-    )
+    )   
 }
