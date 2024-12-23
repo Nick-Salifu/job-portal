@@ -5,12 +5,12 @@ import { IoSearch } from "react-icons/io5";
 
 export default function Homepage(){
     return(
-        <div className="flex flex-col md:flex-row items-center justify-between mx-auto py-12">
+        <div className="flex flex-col md:flex-row items-center container justify-between mx-auto py-12">
             {/* The left side of the hro section */}
-            <div className="px-4 md:px-8 2xl:px-72">
+            <div>
                 <div>
                     <h1 className="text-4xl lg:text-6xl font-bold mb-4">Discover <br/> more than</h1>
-                    <span className=" text-4xl lg:text-6xl font-bold text-[#26A4FF]">5000+ Jobs</span>
+                    <span className=" text-4xl lg:text-6xl font-bold text-[#26A4FF] mb-2">5000+ Jobs</span>
                 </div>
                 <Image src={Group} alt="blue underlines" />
                 <p className="text-sm text-gray-400">Great platform for the job seeker that is searching for new career heights and passionate about startups.</p>
