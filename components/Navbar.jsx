@@ -4,8 +4,8 @@ import { HiMenuAlt2 } from "react-icons/hi";
 
 export default function Navbar() {
     return (
-        <div className="w-full bg-green-600">
-             <nav className="flex justify-between items-center container mx-auto py-4 md:py-8 px-5">
+        <div className="w-full bg-[#F8F8FD]">
+             <nav className="flex justify-between items-center container mx-auto py-4 md:py-8 px-4">
                 <div className="flex items-center gap-14">
                     <Image src={Logo} alt="Website Logo" width={130} height={130} />
                     <ul className="hidden md:flex gap-4">
