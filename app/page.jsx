@@ -6,6 +6,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaAngleDown } from "react-icons/fa6";
 
 import Category from "@/components/Category";
+import Footer from "@/components/Footer";
 
 export default function Homepage(){
     return(
@@ -52,6 +53,10 @@ export default function Homepage(){
 
             <div className="py-10 w-full px-4">
                 <Category />
+            </div>
+
+            <div className="w-full ">
+                <Footer />
             </div>
         </>
     )
