@@ -50,10 +50,10 @@ const Footer = () => {
             <form action="">
               <div className="flex flex-col sm:flex-row justify-between w-full">
                 <div className="w-full sm:w-[70%]">
-                  <input className="bg-white w-full py-2 px-3" type="email" placeholder="Email address" />
+                  <input className="bg-white w-full py-2 px-3 outline-none text-black" type="email" placeholder="Email address" />
                 </div>
                 <div className=" sm:w-[30%]">
-                  <button className="bg-blue-900 text-white py-2 px-3 sm:px-0 sm:w-full"> Subscribe</button>
+                  <button className="bg-blue-900 hover:bg-blue-950 text-white py-2 px-3 sm:px-0 sm:w-full"> Subscribe</button>
                 </div>
               </div>
             </form>
@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="flex gap-2 md:gap-5">
             {socials.map((social, i) => {
               return(
-                <div className="bg-gray-600 h-7 w-7 rounded-full flex justify-center items-center" key={i}><social.logo/></div>
+                <div className="bg-gray-600 hover:bg-white hover:text-blue-800 h-7 w-7 rounded-full flex justify-center items-center" key={i}><social.logo/></div>
               )
             })}
           </div>
