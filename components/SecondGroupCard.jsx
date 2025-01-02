@@ -29,7 +29,7 @@ export default function SecondCard() {
                         <img src="../Bag.png" alt="A bag like object" width={40} />
                         <h3>Design</h3>
                         <div className="flex gap-2">
-                            <p>235 jobs available</p>
+                            <p>135 jobs available</p>
                             <img src="../Icon.png" alt="right arrow" />
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export default function SecondCard() {
                         <img src="../People.png" alt="A group" width={40} />
                         <h3>Design</h3>
                         <div className="flex gap-2">
-                            <p>235 jobs available</p>
+                            <p>260 jobs available</p>
                             <img src="../Icon.png" alt="right arrow" />
                         </div>
                     </div>
